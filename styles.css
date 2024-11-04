@@ -45,6 +45,6 @@ a {
 }
 
 .camo-grid img {
-    width: 100px;
-    height: 100px;
+    width: 160px; /* Adjusted to make the image box more rectangular */
+    height: 90px; /* Adjusted to maintain the rectangle shape */
 }
