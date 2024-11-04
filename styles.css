@@ -36,7 +36,7 @@ a {
 .camo-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     margin-top: 10px;
 }
 
@@ -45,6 +45,7 @@ a {
 }
 
 .camo-grid img {
-    width: 160px; /* Adjusted to make the image box more rectangular */
-    height: 90px; /* Adjusted to maintain the rectangle shape */
+    width: 200px; /* Adjusted width for better display */
+    height: 120px; /* Adjusted height to maintain aspect ratio */
+    object-fit: cover; /* Ensures that the image covers the area without distortion */
 }
