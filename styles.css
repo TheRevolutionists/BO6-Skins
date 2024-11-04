@@ -45,7 +45,8 @@ a {
 }
 
 .camo-grid img {
-    width: 200px; /* Adjusted width for better display */
-    height: 120px; /* Adjusted height to maintain aspect ratio */
-    object-fit: cover; /* Ensures that the image covers the area without distortion */
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
 }
+
